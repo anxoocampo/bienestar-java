@@ -9,8 +9,5 @@ import com.heineken.model.Restaurant;
 
 @Transactional
 public interface RestaurantRepository extends CrudRepository<Restaurant, Long> {
-
-	    List<Restaurant> findByName(String name);
-	    
+	List<Restaurant> findByName(String name);
 }
-
